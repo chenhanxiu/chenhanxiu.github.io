@@ -6,7 +6,7 @@ function startGenerator() {
 }
 
 function generateTrans() {
-    randomData("trans_data",trans_data);
+    randomData("trans",trans_data);
 }
 
 function generateRainbow() {
