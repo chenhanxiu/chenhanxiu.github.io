@@ -2,15 +2,10 @@ const PI = 3.14159;
 
 function startGenerator() {
     generateTrans();
-    generateRainbow();
 }
 
 function generateTrans() {
     randomData("trans",trans_data);
-}
-
-function generateRainbow() {
-    randomData("rainbow_data",rainbow_data);
 }
 
 function randomData(elementId,dataName) {
